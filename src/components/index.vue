@@ -28,6 +28,8 @@ export default {
 </script>
 <style lang="scss" scoped>
 .box {
+  min-width: 1000px;
+  overflow: auto;
   height: 100%;
   display: flex;
   justify-content: space-between;

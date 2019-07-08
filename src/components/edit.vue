@@ -50,9 +50,12 @@ export default {
     box-sizing: border-box;
     width: 100%;
     background: #222;
+    padding-top: 60px;
+    margin-top: -60px;
   }
   .btn-box {
     height: 60px;
+    position: relative;
     display: flex;
     padding: 0 20px;
     justify-content: space-between;
