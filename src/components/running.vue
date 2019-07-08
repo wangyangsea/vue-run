@@ -58,7 +58,9 @@ export default {
     buildDom () {
       this.splitCode()
       if (this.html === '' || this.js === '') {
-        alert('请在Vue编辑框内输入有效的代码')
+        this.$toast({
+          msg: `请输入有效的Vue代码${Math.floor(Math.random() * 1000)}`
+        })
         // eslint-disable-next-line semi
         return;
       }
