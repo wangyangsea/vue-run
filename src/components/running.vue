@@ -77,7 +77,6 @@ export default {
     },
     reset () {
       document.getElementById('display').innerHTML = ''
-      console.log(this.program)
       if (this.program) {
         this.program.$destroy()
       }
